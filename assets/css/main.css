@@ -2516,6 +2516,80 @@ ol {
 }
 
 /*======================================
+	Contact To Action CSS
+========================================*/
+.contact-action {
+  background-color: #ff6b81;
+}
+
+.contact-action .section-title {
+  /* text-align: center;
+  padding: 0px 50px; */
+  margin-bottom: 50px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .contact-action .cta-content {
+    padding: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .contact-action .cta-content {
+    padding: 0;
+  }
+}
+
+.contact-action .section-title h2 {
+  color: #081828;
+  line-height: 50px;
+  font-size: 50px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .contact-action .section-title h2 {
+    font-size: 50px;
+    line-height: 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  .contact-action .section-title h2 {
+    font-size: 50px;
+    line-height: 35px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .contact-action .section-title p {
+    padding: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .contact-action .section-title p {
+    padding: 0;
+    color: #081828;
+  }
+}
+
+.contact-action .section-title .button {
+  margin-top: 40px;
+}
+
+.contact-action .cta-content .button .btn {
+  background-color: #fff;
+  color: #ff6b81;
+}
+
+.contact-action .cta-content .button .btn:hover {
+  color: #fff;
+  background-color: #081828;
+}
+
+/*======================================
 	Error 404 CSS
 ========================================*/
 .error-area {
